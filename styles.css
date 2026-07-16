@@ -50,8 +50,8 @@ main,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 92px;
-  padding-top: 24px;
+  height: 120px;
+  padding-top: 16px;
 }
 
 .brand,
@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 74px;
-  height: 74px;
+  width: 300px;
+  height: 100px;
   object-fit: contain;
   border-radius: 12px;
 }
 
 .footer-brand.brand-flow img {
-  width: 74px;
-  height: 74px;
+  width: 300px;
+  height: 100px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 64px;
-    height: 64px;
+    width: 210px;
+    height: 72px;
   }
 
   .footer-brand.brand-flow img {
-    width: 64px;
-    height: 64px;
+    width: 210px;
+    height: 72px;
   }
 }
 
@@ -139,13 +139,13 @@ main,
 }
 
 .hero-copy {
-  padding-top: 158px;
+  padding-top: 74px;
 }
 
 .hero-copy::before {
   content: "";
   display: block;
-  height: 67px;
+  height: 0;
 }
 
 .proof-pill {
@@ -190,18 +190,18 @@ p {
 
 h1 {
   width: 720px;
-  margin-bottom: 22px;
-  font-size: 58px;
+  margin-bottom: 18px;
+  font-size: 54px;
   font-weight: 800;
   line-height: 1.07;
   letter-spacing: -2.6px;
 }
 
 .hero-copy > p {
-  width: 650px;
-  margin-bottom: 13px;
+  width: 720px;
+  margin-bottom: 18px;
   color: #7e878d;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 1.28;
   letter-spacing: -0.7px;
@@ -791,6 +791,16 @@ h1 {
   font-weight: 800;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+
+.legal-text {
+  margin: 0;
+  color: #4d565d;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: pre-wrap;
 }
 
 @media (max-width: 1200px) {
