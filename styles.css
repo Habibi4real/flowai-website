@@ -139,7 +139,7 @@ main,
 }
 
 .hero-copy {
-  padding-top: 42px;
+  padding-top: 62px;
 }
 
 .hero-copy::before {
@@ -225,7 +225,7 @@ h1 {
 
 .hero-phone-scan {
   left: 12px;
-  top: 102px;
+  top: 76px;
   width: 374px;
   z-index: 1;
   transform: rotate(-8deg);
@@ -282,28 +282,28 @@ h1 {
 .step-phone {
   margin-inline: auto;
   object-fit: contain;
-  height: 604px;
+  height: 650px;
   object-position: bottom center;
 }
 
 .step-phone-scan {
-  width: 356px;
+  width: 392px;
   max-width: none;
   align-self: center;
-  margin-top: 4px;
-  margin-bottom: 25px;
+  margin-top: -10px;
+  margin-bottom: 14px;
 }
 
 .step-phone-dashboard {
-  width: 356px;
-  margin-top: 17px;
-  margin-bottom: 12px;
+  width: 392px;
+  margin-top: -10px;
+  margin-bottom: 14px;
 }
 
 .step-phone-result {
-  width: 356px;
-  margin-top: 17px;
-  margin-bottom: 12px;
+  width: 392px;
+  margin-top: -10px;
+  margin-bottom: 14px;
 }
 
 .step-card h3 {
@@ -674,16 +674,16 @@ h1 {
 
 .final-scan {
   left: 410px;
-  top: -25px;
-  width: 666px;
+  top: -44px;
+  width: 664px;
   transform: none;
   z-index: 1;
 }
 
 .final-result {
   left: 655px;
-  top: 0;
-  width: 663px;
+  top: -10px;
+  width: 664px;
   transform: none;
   z-index: 2;
 }
