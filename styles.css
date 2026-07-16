@@ -50,8 +50,8 @@ main,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 120px;
-  padding-top: 16px;
+  height: 134px;
+  padding-top: 10px;
 }
 
 .brand,
@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 300px;
-  height: 100px;
+  width: 420px;
+  height: 124px;
   object-fit: contain;
   border-radius: 12px;
 }
 
 .footer-brand.brand-flow img {
-  width: 300px;
-  height: 100px;
+  width: 420px;
+  height: 124px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 210px;
-    height: 72px;
+    width: 230px;
+    height: 78px;
   }
 
   .footer-brand.brand-flow img {
-    width: 210px;
-    height: 72px;
+    width: 230px;
+    height: 78px;
   }
 }
 
@@ -139,7 +139,7 @@ main,
 }
 
 .hero-copy {
-  padding-top: 74px;
+  padding-top: 42px;
 }
 
 .hero-copy::before {
@@ -150,15 +150,16 @@ main,
 
 .proof-pill {
   display: flex;
+  width: max-content;
   align-items: center;
-  height: 34px;
-  margin-bottom: 33px;
-  padding: 5px 14px 5px 9px;
+  height: 44px;
+  margin-bottom: 27px;
+  padding: 7px 17px 7px 10px;
   border-radius: 999px;
   background: #f7fbfd;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
   color: #5b656c;
-  font-size: 10.5px;
+  font-size: 14px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -174,8 +175,8 @@ main,
 }
 
 .proof-avatars img {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin-right: -8px;
   border-radius: 50%;
   object-fit: cover;
@@ -198,7 +199,7 @@ h1 {
 }
 
 .hero-copy > p {
-  width: 720px;
+  width: 760px;
   margin-bottom: 18px;
   color: #7e878d;
   font-size: 19px;
@@ -225,7 +226,7 @@ h1 {
 .hero-phone-scan {
   left: 12px;
   top: 102px;
-  width: 386px;
+  width: 374px;
   z-index: 1;
   transform: rotate(-8deg);
 }
@@ -286,7 +287,7 @@ h1 {
 }
 
 .step-phone-scan {
-  width: 417px;
+  width: 356px;
   max-width: none;
   align-self: center;
   margin-top: 4px;
@@ -294,13 +295,13 @@ h1 {
 }
 
 .step-phone-dashboard {
-  width: 367px;
+  width: 356px;
   margin-top: 17px;
   margin-bottom: 12px;
 }
 
 .step-phone-result {
-  width: 344px;
+  width: 356px;
   margin-top: 17px;
   margin-bottom: 12px;
 }
@@ -462,7 +463,7 @@ h1 {
 
 .review-author img {
   width: 51px;
-  height: 53px;
+  height: 51px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -887,7 +888,7 @@ h1 {
   }
 
   .site-header {
-    height: 78px;
+    height: 88px;
     padding-top: 18px;
     justify-content: center;
   }
@@ -959,7 +960,7 @@ h1 {
     letter-spacing: -1.4px;
     text-align: center;
     transform: translateX(-18px);
-    white-space: nowrap;
+    white-space: normal;
   }
 
   .hero-copy > p {
@@ -1058,7 +1059,7 @@ h1 {
   .step-phone-scan,
   .step-phone-dashboard,
   .step-phone-result {
-    width: min(340px, 94vw);
+    width: min(330px, 90vw);
     height: 520px;
     max-width: none;
     margin-top: 0;
@@ -1066,11 +1067,11 @@ h1 {
   }
 
   .step-phone-dashboard {
-    width: min(315px, 87vw);
+    width: min(330px, 90vw);
   }
 
   .step-phone-result {
-    width: min(300px, 83vw);
+    width: min(330px, 90vw);
   }
 
   .step-card h3 {
