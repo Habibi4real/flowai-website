@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 420px;
-  height: 124px;
+  width: 430px;
+  height: 134px;
   object-fit: contain;
   border-radius: 12px;
 }
 
 .footer-brand.brand-flow img {
-  width: 420px;
-  height: 124px;
+  width: 430px;
+  height: 134px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 230px;
-    height: 78px;
+    width: 240px;
+    height: 88px;
   }
 
   .footer-brand.brand-flow img {
-    width: 230px;
-    height: 78px;
+    width: 240px;
+    height: 88px;
   }
 }
 
@@ -139,7 +139,7 @@ main,
 }
 
 .hero-copy {
-  padding-top: 62px;
+  padding-top: 82px;
 }
 
 .hero-copy::before {
@@ -225,7 +225,7 @@ h1 {
 
 .hero-phone-scan {
   left: 12px;
-  top: 76px;
+  top: 48px;
   width: 374px;
   z-index: 1;
   transform: rotate(-8deg);
@@ -301,8 +301,8 @@ h1 {
 }
 
 .step-phone-result {
-  width: 392px;
-  margin-top: -10px;
+  width: 410px;
+  margin-top: -18px;
   margin-bottom: 14px;
 }
 
@@ -673,17 +673,17 @@ h1 {
 }
 
 .final-scan {
-  left: 410px;
-  top: -44px;
-  width: 664px;
+  left: 492px;
+  top: -14px;
+  width: 505px;
   transform: none;
   z-index: 1;
 }
 
 .final-result {
-  left: 655px;
-  top: -10px;
-  width: 664px;
+  left: 710px;
+  top: 8px;
+  width: 510px;
   transform: none;
   z-index: 2;
 }
