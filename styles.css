@@ -224,7 +224,7 @@ h1 {
 }
 
 .hero-phone-scan {
-  left: 12px;
+  left: -20px;
   top: 48px;
   width: 374px;
   z-index: 1;
@@ -526,6 +526,18 @@ h1 {
   left: 172px;
   top: -8px;
   width: 368px;
+}
+
+.faq-art-single {
+  height: 520px;
+}
+
+.faq-combo {
+  position: absolute;
+  left: -38px;
+  top: 18px;
+  width: 610px;
+  max-width: none;
 }
 
 .faq-list {
@@ -840,7 +852,7 @@ h1 {
   }
 
   .hero-phone-scan {
-    left: 7%;
+    left: 3%;
   }
 
   .hero-phone-result {
@@ -1174,6 +1186,17 @@ h1 {
     top: 6px;
     width: 235px;
     transform: translateX(-8%);
+  }
+
+  .faq-art-single {
+    height: 360px;
+  }
+
+  .faq-combo {
+    left: 50%;
+    top: 24px;
+    width: min(410px, 116vw);
+    transform: translateX(-50%);
   }
 
   .faq-item {
