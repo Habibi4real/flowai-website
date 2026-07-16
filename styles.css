@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 430px;
-  height: 134px;
+  width: 560px;
+  height: 226px;
   object-fit: contain;
   border-radius: 12px;
 }
 
 .footer-brand.brand-flow img {
-  width: 430px;
-  height: 134px;
+  width: 560px;
+  height: 226px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 240px;
-    height: 88px;
+    width: 300px;
+    height: 121px;
   }
 
   .footer-brand.brand-flow img {
-    width: 240px;
-    height: 88px;
+    width: 300px;
+    height: 121px;
   }
 }
 
@@ -613,7 +613,7 @@ h1 {
   padding: 86px 55px 64px;
   border-radius: 13px;
   background: #000;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .final-cta::before,
