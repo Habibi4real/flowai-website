@@ -484,19 +484,21 @@ h1 {
 }
 
 .faq-section {
-  display: grid;
-  grid-template-columns: 470px 772px;
-  gap: 72px;
-  min-height: 932px;
-  padding-top: 87px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .faq-copy h2 {
-  margin-bottom: 39px;
+  margin-bottom: 46px;
   font-size: 54px;
   font-weight: 800;
   line-height: 1.08;
   letter-spacing: -1.8px;
+  text-align: center;
 }
 
 .faq-copy > p {
@@ -551,6 +553,8 @@ h1 {
   display: grid;
   align-content: start;
   gap: 22px;
+  width: 772px;
+  max-width: 100%;
   padding-top: 0;
 }
 
@@ -1139,18 +1143,14 @@ h1 {
   .faq-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: auto;
     padding-top: 56px;
+    padding-bottom: 56px;
     gap: 0;
   }
 
-  .faq-copy {
-    display: contents;
-  }
-
   .faq-copy h2 {
-    order: 1;
-    align-self: center;
     width: calc(100vw - 40px);
     margin-bottom: 18px;
     text-align: center;
@@ -1170,18 +1170,9 @@ h1 {
   }
 
   .faq-list {
-    order: 3;
     width: 100%;
     min-width: 0;
     gap: 14px;
-  }
-
-  .faq-art {
-    order: 4;
-    width: 100%;
-    height: 430px;
-    margin-top: 28px;
-    overflow: hidden;
   }
 
   .faq-food {
