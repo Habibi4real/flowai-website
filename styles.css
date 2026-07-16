@@ -50,8 +50,8 @@ main,
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 134px;
-  padding-top: 10px;
+  height: 92px;
+  padding-top: 24px;
 }
 
 .brand,
@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 560px;
-  height: 226px;
+  width: 154px;
+  height: 62px;
   object-fit: contain;
-  border-radius: 12px;
+  border-radius: 0;
 }
 
 .footer-brand.brand-flow img {
-  width: 560px;
-  height: 226px;
+  width: 154px;
+  height: 62px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 300px;
-    height: 121px;
+    width: 132px;
+    height: 54px;
   }
 
   .footer-brand.brand-flow img {
-    width: 300px;
-    height: 121px;
+    width: 132px;
+    height: 54px;
   }
 }
 
@@ -668,13 +668,25 @@ h1 {
   width: 182px;
 }
 
+.final-art {
+  position: absolute;
+  top: -90px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 13px;
+  pointer-events: none;
+}
+
 .final-art img {
   position: absolute;
 }
 
 .final-scan {
   left: 492px;
-  top: -42px;
+  top: 48px;
   width: 505px;
   transform: none;
   z-index: 1;
@@ -682,7 +694,7 @@ h1 {
 
 .final-result {
   left: 710px;
-  top: -20px;
+  top: 70px;
   width: 510px;
   transform: none;
   z-index: 2;
