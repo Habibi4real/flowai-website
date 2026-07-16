@@ -613,7 +613,7 @@ h1 {
   padding: 86px 55px 64px;
   border-radius: 13px;
   background: #000;
-  overflow: visible;
+  overflow: hidden;
 }
 
 .final-cta::before,
@@ -674,7 +674,7 @@ h1 {
 
 .final-scan {
   left: 492px;
-  top: -14px;
+  top: -42px;
   width: 505px;
   transform: none;
   z-index: 1;
@@ -682,7 +682,7 @@ h1 {
 
 .final-result {
   left: 710px;
-  top: 8px;
+  top: -20px;
   width: 510px;
   transform: none;
   z-index: 2;
