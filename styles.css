@@ -67,26 +67,26 @@ main,
 }
 
 .brand-flow img {
-  width: 152px;
-  height: 56px;
+  width: 74px;
+  height: 74px;
   object-fit: contain;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
 .footer-brand.brand-flow img {
-  width: 138px;
-  height: 50px;
+  width: 74px;
+  height: 74px;
 }
 
 @media (max-width: 700px) {
   .brand.brand-flow img {
-    width: 126px;
-    height: 46px;
+    width: 64px;
+    height: 64px;
   }
 
   .footer-brand.brand-flow img {
-    width: 118px;
-    height: 44px;
+    width: 64px;
+    height: 64px;
   }
 }
 
@@ -133,8 +133,8 @@ main,
 
 .hero-section {
   display: grid;
-  grid-template-columns: 565px 1fr;
-  gap: 18px;
+  grid-template-columns: 650px 1fr;
+  gap: 10px;
   min-height: 704px;
 }
 
@@ -149,7 +149,7 @@ main,
 }
 
 .proof-pill {
-  display: none;
+  display: flex;
   align-items: center;
   height: 34px;
   margin-bottom: 33px;
@@ -189,21 +189,21 @@ p {
 }
 
 h1 {
-  width: 630px;
-  margin-bottom: 23px;
-  font-size: 66px;
+  width: 720px;
+  margin-bottom: 22px;
+  font-size: 58px;
   font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -3.2px;
+  line-height: 1.07;
+  letter-spacing: -2.6px;
 }
 
 .hero-copy > p {
-  width: 565px;
+  width: 650px;
   margin-bottom: 13px;
   color: #7e878d;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 1.18;
+  line-height: 1.28;
   letter-spacing: -0.7px;
 }
 
@@ -214,6 +214,7 @@ h1 {
 .hero-product {
   position: relative;
   min-height: 674px;
+  perspective: 1400px;
 }
 
 .hero-phone {
@@ -222,17 +223,19 @@ h1 {
 }
 
 .hero-phone-scan {
-  left: 6px;
-  top: 72px;
-  width: 444px;
+  left: 12px;
+  top: 102px;
+  width: 386px;
   z-index: 1;
+  transform: rotate(-8deg);
 }
 
 .hero-phone-result {
-  right: 0;
-  top: 4px;
-  width: 394px;
+  right: 8px;
+  top: 20px;
+  width: 374px;
   z-index: 2;
+  transform: rotate(8deg);
 }
 
 .steps-section {
