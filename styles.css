@@ -801,6 +801,15 @@ h1 {
   letter-spacing: -1.2px;
 }
 
+.legal-card section h2 {
+  color: #050505;
+}
+
+.legal-card section p + ul,
+.legal-card section ul + p {
+  margin-top: 16px;
+}
+
 .legal-card h3 {
   margin: 30px 0 12px;
   font-size: 25px;

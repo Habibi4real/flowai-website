@@ -1,6 +1,6 @@
-const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=app.cally.mobile";
-const APP_STORE_URL = "https://apps.apple.com/app/id6788743574";
-const WEBSITE_URL = "https://cally-website.vercel.app/";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=app.flowai.mobile";
+const APP_STORE_URL = "https://flowaipp.vercel.app/index.html";
+const WEBSITE_URL = "https://flowaipp.vercel.app/index.html";
 
 module.exports = function handler(request, response) {
   const userAgent = String(request.headers["user-agent"] || "");
